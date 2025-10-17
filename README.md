@@ -289,90 +289,22 @@ s & -1 & 0 \\
 0 & s & -1 \\
 48 & 44 & s + 12 \\
 \end{bmatrix} = s
-\left| \begin{matrix} s & -1 \\ 44 & s + 12 \end{matrix} \right|
-- (-1)
-\left| \begin{matrix} 0 & -1 \\ 48 & s + 12 \end{matrix} \right|
-= s(s(s+12) + 44) + (0 + 48)
-= s^3 + 12s^2 + 44s + 48
-
-
-$$
-det \begin{bmatrix}
-s & -1 & 0 \\
-0 & s & -1 \\
-48 & 44 & s + 12 \\
-\end{bmatrix}
+\begin{matrix} s & -1 \\
+44 & s + 12 \\
+\end{matrix} - (-1)
+\begin{matrix}
+0 & -1 \\
+48 & s + 12 \\
+\end{matrix}
 $$
 
-$$
-= \frac{1}{
-s^3 + 12s^2 + 44s + 48
-}
-\begin{bmatrix}
-s^2 + 125s + 44 & s + 12 & 1 \\
--48 & s^2 + 12s & s \\
--485 & -445 - 48 & s^2
-\end{bmatrix}
-$$
-
-$$
-G(s) = C \Phi(s) B + D
-$$
-
-$$
-= 
-\begin{bmatrix}
-40 & 8 & 0
-\end{bmatrix}
-\frac{1}{
-s^3 + 125s^2 + 445s + 48
-}
-\begin{bmatrix}
-s^2 + 125s + 44 & s + 12 & 1 \\
--48 & s^2 + 12s & s \\
--485 & -445 - 48 & s^2
-\end{bmatrix}
-\begin{bmatrix}
-0 \\ 0 \\ 1
-\end{bmatrix}
-$$
-
-$$
-= \frac{1}{s^3 + 125s^2 + 445s + 48}
-\left[
-40 \; 8 \; 0
-\right]
-\begin{bmatrix}
-s^2 + 125s + 44 & s + 12 & 1 \\
--48 & s^2 + 12s & s \\
--48s & -44s - 48 & s^2
-\end{bmatrix}
-\begin{bmatrix}
-0 \\ 0 \\ 1
-\end{bmatrix}
-$$
-
-$$
-= \frac{1}{s^3 + 125s^2 + 445s + 48}
-\begin{bmatrix}
-405s^2 + 480s + 1376 & 8s^2 + 136s + 480 & 8s + 40
-\end{bmatrix}
-\begin{bmatrix}
-0 \\ 0 \\ 1
-\end{bmatrix}
-$$
-
-$$
-= \frac{85140}{s^3 + 125s^2 + 445s + 48}
-$$
-
-
+$= s(s(s+12) + 44) + (0 + 48) = s^3 + 12s^2 + 44s + 48$
 
 $$
 [C_{ij}] =
 \begin{bmatrix}
-s(s+12) + 44 & -(0+48) & 0 - 485 \\
--(s^2 + 12s - 0) & s(s+12) - 0 & -(445 + 48) \\
+s(s+12) + 44 & -(0+48) & 0 - 48s \\
+-(s^2 + 12s - 0) & s(s+12) - 0 & -(44s + 48) \\
 1 - 0 & -(s - 0) & s^2 - 0 \\
 \end{bmatrix} =
 \begin{bmatrix}
@@ -387,12 +319,13 @@ $$
 \begin{bmatrix}
 s^2 + 12s + 44 & s + 12 & 1 \\
 -48 & s^2 + 12s & s \\
--485 & -445 - 48 & s^2 \\
+-48s & -44s - 48 & s^2 \\
 \end{bmatrix}
 $$
 
-$$
 therefore 
+
+$$
 \Phi(s) = [sI - A]^{-1} = 
 \begin{bmatrix}
 s & -1 & 0 \\
@@ -402,46 +335,29 @@ s & -1 & 0 \\
 $$
 
 $$
-\Phi(s) = [sI - A]^{-1} =
-\begin{bmatrix}
-s & -1 & 0 \\
-0 & s & -1 \\
-48 & 44 & s + 12
-\end{bmatrix}^{-1}
+G(s) = C \Phi(s) B + D
 $$
 
 $$
-= \frac{1}{\det
-\begin{bmatrix}
-s & -1 & 0 \\
-0 & s & -1 \\
-48 & 44 & s + 12
-\end{bmatrix}
-}
-\left[ C_{ij} \right]^T
-$$
-
-$$
-= \frac{1}{
-s^3 + 125s^2 + 445s + 48
-}
+= \begin{bmatrix}
+40 & 8 & 0 \\
+\end{bmatrix} \frac{1}{s^3 + 12s^2 + 44s + 48}
 \begin{bmatrix}
 s^2 + 12s + 44 & s + 12 & 1 \\
 -48 & s^2 + 12s & s \\
 -48s & -44s - 48 & s^2
 \end{bmatrix}
+\begin{bmatrix}
+0 \\
+0 \\ 
+1 \\
+\end{bmatrix}
 $$
-
-$$
-G(s) = C \Phi(s) B + D
-$$
-
-
 
 $$
 = \frac{1}{s^3 + 12s^2 + 44s + 48}
 \left[
-40 \; 8 \; 0
+40 ; 8 ; 0
 \right]
 \begin{bmatrix}
 s^2 + 12s + 44 & s + 12 & 1 \\
@@ -454,32 +370,20 @@ s^2 + 12s + 44 & s + 12 & 1 \\
 $$
 
 $$
-= \frac{1}{s^3 + 125s^2 + 445s + 48}
+= \frac{1}{s^3 + 12s^2 + 44s + 48}
 \begin{bmatrix}
 40s^2 + 480s + 1376 & 8s^2 + 136s + 480 & 8s + 40
 \end{bmatrix}
 \begin{bmatrix}
-0 \\ 0 \\ 1
+0 \\
+0 \\
+1 \\
 \end{bmatrix}
 $$
 
 $$
-= \frac{8s+40}{s^3 + 12s^2 + 44s + 48}
+= \frac{8s+40}{s^3 + 125s^2 + 445s + 48}
 $$
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 ### 3.17
