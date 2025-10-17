@@ -18,9 +18,9 @@ $\frac {dx_2(t)} {dt} = - \frac {b} {M} x_2(t) - \frac {k} {M} x_1(t) + \frac {1
 
 (c)
 
-$X(t) =
-\begin{vmatrix}
+$$X(t) =
+\begin{pmatrix}
   x_1(t)\\
-  x_2(t)
-\end{vmatrix}$
+  x_2(t)\\
+\end{pmatrix}$$
 
