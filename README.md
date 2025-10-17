@@ -69,5 +69,30 @@ $i_R(t) \times R = -V_C(t) + V_2(t)$
 $i_R(t) = - \frac {1}{R} V_C(t) + \frac {1}{R}V_2(t)$
 
 
+from those,
+
+\[
+V_1(t) = L \frac{d i_L(t)}{dt} - V_C(t) + V_2(t)
+\]
+
+\[
+i_L(t) = -C \frac{d V_C(t)}{dt} + i_R(t)
+\]
+
+\[
+\frac{d i_L(t)}{dt} =
+\frac{1}{L} V_1(t) +
+\frac{1}{L} V_C(t) -
+\frac{1}{L} V_2(t)
+\]
+
+\[
+\frac{d V_C(t)}{dt} =
+-\frac{1}{C} i_L(t) +
+\frac{1}{C} i_R(t)
+= -\frac{1}{C} i_L(t) -
+\frac{1}{RC} V_C(t) +
+\frac{1}{RC} V_2(t)
+\]
 
 
