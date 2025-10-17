@@ -80,9 +80,10 @@ $\frac{d i_L(t)}{dt} = \frac{1}{L} v_1(t) + \frac{1}{L} v_C(t) - \frac{1}{L} v_2
 $\frac{d v_C(t)}{dt} = -\frac{1}{C} i_L(t) + \frac{1}{C} i_R(t) = -\frac{1}{C} i_L(t) - \frac{1}{RC} v_C(t) + \frac{1}{RC} v_2(t)$
 
 
-$x_1(t) = \dot{i}_L(t), \quad x_2(t) = V_c(t)$
+$x_1(t) = i_L(t), x_2(t) = V_c(t)$
 
-$\mathbf{x}(t) = 
+$$
+X(t) = 
 \begin{bmatrix}
     x_1(t) \\
     x_2(t)
@@ -119,4 +120,5 @@ $\dot{\mathbf{x}}(t) =
 \begin{bmatrix}
     V_1(t) \\
     V_2(t)
-\end{bmatrix}$
+\end{bmatrix}
+$$
