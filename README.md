@@ -54,7 +54,15 @@ $$
 
 ### 3.3
 
+using KVL at outer loop
 
+$v_1(t) = L \frac{di_L(t)}{dt} - v_c(t) + v_2(t)$
+
+using KCL at node
+
+
+
+using KVL at right loop
 
 
 
