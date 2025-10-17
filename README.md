@@ -157,7 +157,7 @@ $$
 
 by r(t)
 
-$\dot{x}_3(t)$ = \dddot{z}(t)$
+$\dot{x}_3(t) = \dddot{z}(t)$
 
 $= r(t) - 2z(t) + 23\dot{z}(t) - 5\ddot{z}(t)$
 
@@ -167,6 +167,27 @@ by y(t)
 
 $y(t) = 2x_1(t) + x_2(t)$
 
+thus, state variable model is
+
+$$
+\dot{X}(t) =
+\begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+-2 & 23 & -5 \\
+\end{bmatrix} x(t) +
+\begin{bmatrix}
+0 \\
+0 \\
+1 \\
+\end{bmatrix} r(t)
+$$
+
+$$
+y(t) = \begin{bmatrix}
+2 & 1 & 0 \\
+\end{bmatrix} x(t)
+$$
 
 
 ---
