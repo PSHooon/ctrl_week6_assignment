@@ -217,7 +217,28 @@ $= (s^2-4s+3)(s-10) - 4s + 40 + 4 - 2s + 6$
 
 $= s^3-14s^2+31s+20$
 
+$$
+\left[ C_{ij} \right] =
+\begin{bmatrix}
++(bc-0) & -(-4c-0) & +(4-2b) \\
+-(-c+1) & +(ac-2) & -(-a+2) \\
++(0-b) & -(0+4) & +(ab-4) \\
+\end{bmatrix} =
+\begin{bmatrix}
+bc & 4c & 4-2b \\
+c-1 & ac-2 & a-2 \\
+-b & -4 & ab-4 \\
+\end{bmatrix}
+$$
 
+$$
+\left[ C_{ij} \right]^{T} =
+\begin{bmatrix}
+bc & c-1 & -b \\
+4c & ac-2 & -4 \\
+4-2b & a-2 & ab-4 \\
+\end{bmatrix}
+$$
 
 
 
