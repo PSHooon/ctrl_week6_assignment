@@ -142,8 +142,8 @@ s & 0 & 0 \\
 \end{bmatrix} -
 \begin{bmatrix}
 1 & 1 & -1 \\
--4 & 3 & 0 \\
-2 & -1 & 10 \\
+4 & 3 & 0 \\
+-2 & 1 & 10 \\
 \end{bmatrix} 
 \right) ^{-1}
 \begin{bmatrix}
