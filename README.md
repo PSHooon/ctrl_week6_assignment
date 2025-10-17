@@ -134,7 +134,7 @@ $$
 \begin{bmatrix}
 1 & 0 & 0 \\
 \end{bmatrix}
-\left
+\left()
 \begin{bmatrix}
 s & 0 & 0 \\
 0 & s & 0 \\
@@ -145,7 +145,7 @@ s & 0 & 0 \\
 -4 & 3 & 0 \\
 2 & -1 & 10 \\
 \end{bmatrix} 
-\right ^{-1}
+\right() ^{-1}
 \begin{bmatrix}
 0 \\
 0 \\
