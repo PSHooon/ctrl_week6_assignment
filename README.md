@@ -20,33 +20,33 @@ $\frac {dx_2(t)} {dt} = - \frac {b} {M} x_2(t) - \frac {k} {M} x_1(t) + \frac {1
 
 $$
 \dot{X}(t) =
-\begin{vmatrix}
+\begin{bmatrix}
 \dot{x}_1(t)\\
 \dot{x}_2(t)\\
-\end{vmatrix} =
-\begin{vmatrix}
+\end{bmatrix} =
+\begin{bmatrix}
 0 & 1\\
 -\frac{k}{M} & -\frac{b}{M}\\
-\end{vmatrix}
-\begin{vmatrix}
+\end{bmatrix}
+\begin{bmatrix}
 x_1(t)\\
 x_2(t)\\
-\end{vmatrix} +
-\begin{vmatrix}
+\end{bmatrix} +
+\begin{bmatrix}
 0\\
 \frac{1}{M}\\
-\end{vmatrix} F(t)
+\end{bmatrix} F(t)
 $$
 
 $$y(t) = 
-\begin{vmatrix}
+\begin{bmatrix}
 1\\
 0\\
-\end{vmatrix}
-\begin{vmatrix}
+\end{bmatrix}
+\begin{bmatrix}
 x_1(t)\\
 x_2(t)\\
-\end{vmatrix} +
+\end{bmatrix} +
 0 \times F(t)
 $$
 
@@ -82,7 +82,8 @@ $\frac{d v_C(t)}{dt} = -\frac{1}{C} i_L(t) + \frac{1}{C} i_R(t) = -\frac{1}{C} i
 
 $x_1(t) = i_L(t), x_2(t) = V_c(t)$
 
-$$X(t) = 
+$$
+X(t) = 
 \begin{bmatrix}
 x_1(t) \\
 x_2(t) \\
