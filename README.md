@@ -171,4 +171,4 @@ $$
 
 이 때, 
 
-$ A^{-1} = \frac{1}{\det A} \left[ C_{ij} \right]^T $
+$A^{-1} = \frac{1}{\det A} \left[ C_{ij} \right]^T$
