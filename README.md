@@ -37,3 +37,15 @@ x_2(t)\\
 \frac{1}{M}\\
 \end{vmatrix} F(t)
 $$
+
+$$y(t) = 
+\begin{vmatrix}
+1\\
+0\\
+\end{vmatrix}
+\begin{vmatrix}
+x_1(t)\\
+x_2(t)\\
+\end{vmatrix} +
+0 \times F(t)
+SS
