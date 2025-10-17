@@ -135,7 +135,7 @@ $R(s) = (s^3 + 5s^2 - 23s + 2) \cdot Z(s)$
 
 $y(t) = \dot{z}(t) + 2z(t)$
 
-$r(t) = \ddot{z}(t) + 5\dot{z}(t) - 23\dot{z}(t) + 2z(t)$
+$r(t) = \dddot{z}(t) + 5\ddot{z}(t) - 23\dot{z}(t) + 2z(t)$
 
 $$
 x(t) = \begin{bmatrix}
@@ -157,7 +157,11 @@ $$
 
 by r(t)
 
-$\dot{x}_3(t) = \ddot{z}(t) = r(t) - 2z(t) + 23\dot{z}(t) - 5\ddot{z}(t) = r(t) - 2x_1(t) + 23x_2(t) - 5x_3(t)$
+$\dot{x}_3(t)$ = \dddot{z}(t)$
+
+$= r(t) - 2z(t) + 23\dot{z}(t) - 5\ddot{z}(t)$
+
+$= r(t) - 2x_1(t) + 23x_2(t) - 5x_3(t)$
 
 by y(t)
 
