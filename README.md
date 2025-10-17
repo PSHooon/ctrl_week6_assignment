@@ -194,7 +194,7 @@ a & -1 & 1 \\
 $$
 
 $$
-& = a\begin{vmatrix} 
+= a\begin{vmatrix} 
 b & 0 \\ 
 -1 & c \\
 \end{vmatrix} - 
