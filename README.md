@@ -194,9 +194,18 @@ a & -1 & 1 \\
 $$
 
 $$
-= a\begin{vmatrix} b & 0 \\ -1 & c \end{vmatrix} - 
-(-1) \begin{vmatrix} -4 & 0 \\ 2 & c \end{vmatrix} + 
-1 \begin{vmatrix} -4 & b \\ 2 & -1 \end{vmatrix}
+= a\begin{vmatrix} 
+b & 0 \\ 
+-1 & c \\
+\end{vmatrix} - 
+(-1) \begin{vmatrix}
+-4 & 0 \\
+2 & c \\
+\end{vmatrix} + 
+1 \begin{vmatrix} 
+-4 & b \\ 
+2 & -1 \\
+\end{vmatrix}
 $$
 
 $= abc - 4c + 4 - 2b$
