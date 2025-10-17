@@ -126,4 +126,45 @@ $$
 ### 3.12
 
 ---
-### 3.15
+### 3.17
+
+$
+G(s) = C(sI-A)^{-1}B
+$
+
+$
+= [1\ 0\ 0]
+\left(
+\begin{bmatrix}
+s & 0 & 0 \\
+0 & s & 0 \\
+0 & 0 & s
+\end{bmatrix}
+-
+\begin{bmatrix}
+1 & 1 & -1 \\
+-4 & 3 & 0 \\
+2 & -1 & 10
+\end{bmatrix}
+\right)^{-1}
+\begin{bmatrix}
+0 \\
+0 \\
+4
+\end{bmatrix}
+$
+
+$
+= [1\ 0\ 0]
+\begin{bmatrix}
+s-1 & -1 & 1 \\
+-4 & s-3 & 0 \\
+2 & -1 & s-10
+\end{bmatrix}^{-1}
+\begin{bmatrix}
+0 \\
+0 \\
+4
+\end{bmatrix}
+$
+
