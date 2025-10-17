@@ -7,4 +7,11 @@
 $M \frac {d^2y(t)} {dt^2} + b \frac {dy(t)} {dt} + ky(t) = F(t)$
 
 (a)
+
 $x_1(t) = y(t)$ , $x_2(t) = \frac {dy(t)} {dt}$
+
+(b)
+
+$\frac {dx_1(t)} {dt} = x_2(t)$
+
+$\frac {dx_2(t)} {dt} = - \frac {b} {M} x_2(t) - \frac {k} {M} x_1(t) + \frac {1} {M} F(t)$
