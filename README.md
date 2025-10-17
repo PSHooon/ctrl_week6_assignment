@@ -48,4 +48,4 @@ x_1(t)\\
 x_2(t)\\
 \end{vmatrix} +
 0 \times F(t)
-SS
+$$
