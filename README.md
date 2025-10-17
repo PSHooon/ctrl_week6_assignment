@@ -90,35 +90,40 @@ X(t) =
 \end{bmatrix}
 =
 \begin{bmatrix}
-    \dot{i}_L(t) \\
-    V_c(t)
-\end{bmatrix}$
+\dot{i}_L(t) \\
+V_c(t)
+\end{bmatrix}
+$$
 
-$\dot{\mathbf{x}}(t) =
+$$
+\dot{X}(t) =
 \begin{bmatrix}
-    \dot{x}_1(t) \\
-    \dot{x}_2(t)
+\dot{x}_1(t) \\
+\dot{x}_2(t)
 \end{bmatrix}
 =
-\underbrace{
-    \begin{bmatrix}
-        0 & \frac{1}{L} \\
-        -\frac{1}{C} & -\frac{1}{RC}
-    \end{bmatrix}
-}_{A}
+$$
+$$
 \begin{bmatrix}
-    x_1(t) \\
-    x_2(t)
+0 & \frac{1}{L} \\
+-\frac{1}{C} & -\frac{1}{RC}
 \end{bmatrix}
-+
-\underbrace{
-    \begin{bmatrix}
-        \frac{1}{L} & -\frac{1}{L} \\
-        0 & \frac{1}{RC}
-    \end{bmatrix}
-}_{B}
+$$
+$$
 \begin{bmatrix}
-    V_1(t) \\
-    V_2(t)
+x_1(t) \\
+x_2(t)
+\end{bmatrix} +
+$$
+$$
+\begin{bmatrix}
+\frac{1}{L} & -\frac{1}{L} \\
+0 & \frac{1}{RC}
+\end{bmatrix}
+$$
+$$
+\begin{bmatrix}
+v_1(t) \\
+v_2(t)
 \end{bmatrix}
 $$
