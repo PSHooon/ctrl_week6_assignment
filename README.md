@@ -169,6 +169,22 @@ s-1 & -1 & 1 \\
 \end{bmatrix}
 $$
 
+$$
+\det\begin{bmatrix}
+s-1 & -1 & 1 \\
+-4 & s-3 & 0 \\
+2 & -1 & s-10
+\end{bmatrix}
+=
+\det\begin{bmatrix}
+a & -1 & 1 \\
+-4 & b & 0 \\
+2 & -1 & c
+\end{bmatrix}
+$$
+
+
+
 이 때, 
 
 $A^{-1} = \frac{1}{\det A} \left[ C_{ij} \right]^T$
