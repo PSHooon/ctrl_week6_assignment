@@ -204,7 +204,7 @@ b & 0 \\
 \end{vmatrix} + 
 1 \begin{vmatrix} 
 -4 & b \\ 
-2 & -1 \\
+2 & -1 \\ &&
 \end{vmatrix}
 $$
 
