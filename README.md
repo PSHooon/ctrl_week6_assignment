@@ -20,7 +20,7 @@ $\frac {dx_2(t)} {dt} = - \frac {b} {M} x_2(t) - \frac {k} {M} x_1(t) + \frac {1
 
 $X(t) =
 \begin{vmatrix}
-x_1(t)\\
-x_2(t)\\
+  x_1(t)\\
+  x_2(t)
 \end{vmatrix}$
 
