@@ -193,6 +193,70 @@ $$
 ---
 ### 3.12
 
+(a)
+
+$T(s) = \frac{Y(s)}{R(s)} = \frac{8s+40}{s^3 + 12s^2 + 44s + 48} \cdot \frac{Z(s)}{Z(s)}$
+
+$Y(s) = (8s+40) \cdot Z(s)$
+
+$R(s) = (s^3 + 12s^2 + 44s + 48) \cdot Z(s)$
+
+$y(t) = 8\dot{z}(t) + 40z(t)$
+
+$r(t) = \dddot{z}(t) + 12\ddot{z}(t) + 44\dot{z}(t) + 48z(t)$
+
+$$
+x(t) = \begin{bmatrix}
+x_1(t) \\
+x_2(t) \\
+x_3(t) \\
+\end{bmatrix} =
+\begin{bmatrix}
+z(t) \\
+\dot{z}(t) \\
+\ddot{z}(t) \\
+\end{bmatrix} =
+\begin{bmatrix}
+x_1(t) \\
+x_2(t) \\
+x_3(t) \\
+\end{bmatrix} \\
+$$
+
+by r(t)
+
+$\dot{x}_3(t) = \dddot{z}(t)$
+
+$= r(t) - 48z(t) - 44\dot{z}(t) - 12\ddot{z}(t)$
+
+$= r(t) - 48x_1(t) - 44x_2(t) - 12x_3(t)$
+
+by y(t)
+
+$y(t) = 40x_1(t) + 8x_2(t)$
+
+thus, state variable model is
+
+$$
+\dot{X}(t) =
+\begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+-48 & -44 & -12 \\
+\end{bmatrix} x(t) +
+\begin{bmatrix}
+0 \\
+0 \\
+1 \\
+\end{bmatrix} r(t)
+$$
+
+$$
+y(t) = \begin{bmatrix}
+40 & 8 & 0 \\
+\end{bmatrix} x(t)
+$$
+
 ---
 ### 3.17
 
