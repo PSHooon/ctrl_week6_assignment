@@ -1,3 +1,3 @@
 # ctrl_week6_assignment
 
-$S(s) = \frac {1} {1+L(s)}$
+$S(s) = M \frac {d^2y(t)} {dt^2}$
