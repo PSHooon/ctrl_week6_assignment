@@ -169,3 +169,6 @@ s-1 & -1 & 1 \\
 \end{bmatrix}
 $$
 
+이 때, 
+
+$ A^{-1} = \frac{1}{\det A} \left[ C_{ij} \right]^T $
