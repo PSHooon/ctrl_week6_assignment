@@ -193,8 +193,8 @@ a & -1 & 1 \\
 \end{bmatrix}
 $$
 
+
 $$
-\begin{align*}
 = a\begin{vmatrix} 
 b & 0 \\ 
 -1 & c \\
@@ -207,7 +207,6 @@ b & 0 \\
 -4 & b \\ 
 2 & -1 \\ 
 \end{vmatrix}
-\begin{align*}
 $$
 
 $= abc - 4c + 4 - 2b$
