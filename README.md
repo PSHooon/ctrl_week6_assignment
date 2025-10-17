@@ -240,6 +240,96 @@ bc & c-1 & -b \\
 \end{bmatrix}
 $$
 
+$G(s) = C(sI-A)^{-1}B$
+
+$$
+=\begin{bmatrix}
+1 & 0 & 0 \\
+\end{bmatrix}
+\left(
+\begin{bmatrix}
+s & 0 & 0 \\
+0 & s & 0 \\
+0 & 0 & s \\
+\end{bmatrix} -
+\begin{bmatrix}
+1 & 1 & -1 \\
+4 & 3 & 0 \\
+-2 & 1 & 10 \\
+\end{bmatrix} 
+\right) ^{-1}
+\begin{bmatrix}
+0 \\
+0 \\
+4 \\
+\end{bmatrix}
+$$
+
+$$
+=\begin{bmatrix}
+1 & 0 & 0 \\
+\end{bmatrix}
+\begin{bmatrix}
+s-1 & -1 & 1 \\
+-4 & s-3 & 0 \\
+2 & -1 & s-10 \\
+\end{bmatrix}^{-1}
+\begin{bmatrix}
+0 \\
+0 \\
+4 \\
+\end{bmatrix}
+$$
+
+$$
+=\begin{bmatrix}
+1 & 0 & 0 \\
+\end{bmatrix}
+\frac{1}{s^3-14s^2+37s+20}
+\begin{bmatrix}
+bc & c-1 & -b \\
+4c & ac-2 & -4 \\
+4-2b & a-2 & ab-4 \\
+\end{bmatrix}
+\begin{bmatrix}
+0 \\
+0 \\
+4 \\
+\end{bmatrix}
+$$
+
+$$
+= \frac{1}{s^3-14s^2+31s+20}
+\begin{bmatrix}
+1 & 0 & 0 \\
+\end{bmatrix}
+\begin{bmatrix}
+bc & c-1 & -b \\
+4c & ac-2 & -4 \\
+4-2b & a-2 & ab-4 \\
+\end{bmatrix}
+\begin{bmatrix}
+0 \\
+0 \\
+4 \\
+\end{bmatrix}
+$$
+
+$$
+= \frac{1}{s^3-14s^2+37s+20}
+\begin{bmatrix}
+bc & c-1 & -b \\
+\end{bmatrix}
+\begin{bmatrix}
+0 \\
+0 \\
+4 \\
+\end{bmatrix}
+$$
+
+$= \frac{1}{s^3-14s^2+37s+20} \times -4s+12 = \frac{-4s+12}{s^3-14s^2+37s+20}$
+
+$G(s) = \frac{-4s+12}{s^3-14s^2+31s+20}$
 
 
 
