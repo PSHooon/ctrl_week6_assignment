@@ -121,6 +121,49 @@ $$
 ---
 ### 3.5
 
+(a)
+
+$T(s) = \frac{\frac{s+2}{(s+8)(s-3)s}}{1 + \frac{s+2}{(s+8)(s-3)s}} = \frac{\frac{s+2}{s^3 + 5s^2 - 24s}}{\frac{s^3 + 5s^2 - 23s + 2}{s^3 + 5s^2 - 24s}} = \frac{s+2}{s^3 + 5s^2 - 23s + 2}$
+
+(b)
+
+$T(s) = \frac{Y(s)}{R(s)} = \frac{s+2}{s^3 + 5s^2 - 23s + 2} \cdot \frac{Z(s)}{Z(s)}$
+
+$Y(s) = (s+2) \cdot Z(s)$
+
+$R(s) = (s^3 + 5s^2 - 23s + 2) \cdot Z(s)$
+
+$y(t) = \dot{z}(t) + 2z(t)$
+
+$r(t) = \ddot{z}(t) + 5\dot{z}(t) - 23\dot{z}(t) + 2z(t)$
+
+$$
+x(t) = \begin{bmatrix}
+x_1(t) \\
+x_2(t) \\
+x_3(t) \\
+\end{bmatrix} =
+\begin{bmatrix}
+z(t) \\
+\dot{z}(t) \\
+\ddot{z}(t) \\
+\end{bmatrix} =
+\begin{bmatrix}
+x_1(t) \\
+x_2(t) \\
+x_3(t) \\
+\end{bmatrix} \\
+$$
+
+by r(t)
+
+$\dot{x}_3(t) = \ddot{z}(t) = r(t) - 2z(t) + 23\dot{z}(t) - 5\ddot{z}(t) = r(t) - 2x_1(t) + 23x_2(t) - 5x_3(t)$
+
+by y(t)
+
+$y(t) = 2x_1(t) + x_2(t)$
+
+
 
 ---
 ### 3.12
