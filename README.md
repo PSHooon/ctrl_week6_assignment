@@ -82,16 +82,14 @@ $\frac{d v_C(t)}{dt} = -\frac{1}{C} i_L(t) + \frac{1}{C} i_R(t) = -\frac{1}{C} i
 
 $x_1(t) = i_L(t), x_2(t) = V_c(t)$
 
-$$
-X(t) = 
+$$X(t) = 
 \begin{bmatrix}
-    x_1(t) \\
-    x_2(t)
-\end{bmatrix}
-=
+x_1(t) \\
+x_2(t)
+\end{bmatrix} =
 \begin{bmatrix}
-\dot{i}_L(t) \\
-V_c(t)
+\i_L(t) \\
+v_c(t)
 \end{bmatrix}
 $$
 
@@ -133,24 +131,22 @@ $$
 \dot{X}(t) =
 \begin{bmatrix}
 \dot{x}_1(t) \\
-\dot{x}_2(t)
-\end{bmatrix}
-=
+\dot{x}_2(t) \\
+\end{bmatrix} =
 \begin{bmatrix}
 0 & \frac{1}{L} \\
--\frac{1}{C} & -\frac{1}{RC}
+-\frac{1}{C} & -\frac{1}{RC} \\
 \end{bmatrix}
 \begin{bmatrix}
 x_1(t) \\
-x_2(t)
-\end{bmatrix}
-+
+x_2(t) \\
+\end{bmatrix} +
 \begin{bmatrix}
 \frac{1}{L} & -\frac{1}{L} \\
-0 & \frac{1}{RC}
+0 & \frac{1}{RC} \\
 \end{bmatrix}
 \begin{bmatrix}
 v_1(t) \\
-v_2(t)
+v_2(t) \\
 \end{bmatrix}
 $$
