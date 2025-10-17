@@ -18,34 +18,6 @@ $\frac {dx_2(t)} {dt} = - \frac {b} {M} x_2(t) - \frac {k} {M} x_1(t) + \frac {1
 
 (c)
 
-$$X(t) =
-\begin{vmatrix}
-  x_1(t)\\
-  x_2(t)\\
-\end{vmatrix}
-
-\dot{X}(t) =
-\begin{vmatrix}
-  dot{x}_1(t)\\
-  dot{x}_2(t)\\
-\end{vmatrix} = 
-
-\begin{vmatrix}
-  0 & 1\\
-  -\frac{k}{M} & -\frac{b}{M}\\
-\end{vmatrix}
-
-\begin{vmatrix}
-  x_1(t)\\
-  x_2(t)\\
-\end{vmatrix} +
-
-\begin{vmatrix}
-  0\\
-  \frac{1}{M}\\
-\end{vmatrix} F(t)$$
-
-
 $$
 \dot{X}(t) =
 \begin{vmatrix}
