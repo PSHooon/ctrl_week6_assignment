@@ -174,6 +174,10 @@ $$
 
 $A^{-1} = \frac{1}{\det A} \left[ C_{ij} \right]^T$
 
+let 
+
+$s-1=a, s-3=b, s-10=c$
+
 $$
 det
 \begin{bmatrix}
@@ -189,9 +193,11 @@ a & -1 & 1 \\
 \end{bmatrix}
 $$
 
-let $s-1=a, s-3=b, s-10=c$
-
-$= a\left| \begin{matrix} b & 0 \\ -1 & c \end{matrix} \right| - (-1) \left| \begin{matrix} -4 & 0 \\ 2 & c \end{matrix} \right| + 1 \left| \begin{matrix} -4 & b \\ 2 & -1 \end{matrix} \right|$
+$$
+= a\begin{matrix} b & 0 \\ -1 & c \end{matrix} - 
+(-1) \begin{matrix} -4 & 0 \\ 2 & c \end{matrix} + 
+1 \begin{matrix} -4 & b \\ 2 & -1 \end{matrix}
+$$
 
 $= abc - 4c + 4 - 2b$
 
