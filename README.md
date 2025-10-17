@@ -188,3 +188,53 @@ a & -1 & 1 \\
 2 & -1 & c
 \end{bmatrix}
 $$
+
+let $s-1=a, s-3=b, s-10=c$
+
+$= a\left| \begin{matrix} b & 0 \\ -1 & c \end{matrix} \right| - (-1) \left| \begin{matrix} -4 & 0 \\ 2 & c \end{matrix} \right| + 1 \left| \begin{matrix} -4 & b \\ 2 & -1 \end{matrix} \right|$
+
+$= abc - 4c + 4 - 2b$
+
+$= (s-1)(s-3)(s-10) - 4(s-10) + 4\cdot2(s-3)$
+
+$= (s^2-4s+3)(s-10) - 4s + 40 + 4 - 2s + 6$
+
+$= s^3-14s^2+31s+20$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
