@@ -131,24 +131,23 @@ $$
 $G(s) = C(sI-A)^{-1}B$
 
 $$
-[1\ 0\ 0]
-\left(
+\begin{bmatrix}
+1 & 0 & 0 \\
+\end{bmatrix}
 \begin{bmatrix}
 s & 0 & 0 \\
 0 & s & 0 \\
-0 & 0 & s
-\end{bmatrix}
--
+0 & 0 & s \\
+\end{bmatrix} -
 \begin{bmatrix}
 1 & 1 & -1 \\
 -4 & 3 & 0 \\
-2 & -1 & 10
-\end{bmatrix}
-\right)^{-1}
+2 & -1 & 10 \\
+\end{bmatrix} ^{-1}
 \begin{bmatrix}
 0 \\
 0 \\
-4
+4 \\
 \end{bmatrix}
 $$
 
