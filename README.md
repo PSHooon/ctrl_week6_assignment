@@ -71,26 +71,10 @@ $i_R(t) = - \frac {1}{R} V_C(t) + \frac {1}{R}V_2(t)$
 
 from those,
 
-$
-v_1(t) = L \frac{d i_L(t)}{dt} - v_C(t) + v_2(t)
-$
+$v_1(t) = L \frac{d i_L(t)}{dt} - v_C(t) + v_2(t)$
 
-$
-i_L(t) = -C \frac{d v_C(t)}{dt} + i_R(t)
-$
+$i_L(t) = -C \frac{d v_C(t)}{dt} + i_R(t)$
 
-$
-\frac{d i_L(t)}{dt} =
-\frac{1}{L} v_1(t) +
-\frac{1}{L} v_C(t) -
-\frac{1}{L} v_2(t)
-$
+$\frac{d i_L(t)}{dt} = \frac{1}{L} v_1(t) + \frac{1}{L} v_C(t) - \frac{1}{L} v_2(t)$
 
-$
-\frac{d v_C(t)}{dt} =
--\frac{1}{C} i_L(t) +
-\frac{1}{C} i_R(t)
-= -\frac{1}{C} i_L(t) -
-\frac{1}{RC} v_C(t) +
-\frac{1}{RC} v_2(t)
-$
+$\frac{d v_C(t)}{dt} = -\frac{1}{C} i_L(t) + \frac{1}{C} i_R(t) = -\frac{1}{C} i_L(t) - \frac{1}{RC} v_C(t) + \frac{1}{RC} v_2(t)$
