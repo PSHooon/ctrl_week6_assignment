@@ -5,3 +5,6 @@
 ### 3.1
 
 $M \frac {d^2y(t)} {dt^2} + b \frac {dy(t)} {dt} + ky(t) = F(t)$
+
+(a)
+$x_1(t) = y(t)$ , $x_2(t) = \frac {dy(t)} {dt}$
