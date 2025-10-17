@@ -134,6 +134,7 @@ $$
 \begin{bmatrix}
 1 & 0 & 0 \\
 \end{bmatrix}
+\left
 \begin{bmatrix}
 s & 0 & 0 \\
 0 & s & 0 \\
@@ -143,7 +144,8 @@ s & 0 & 0 \\
 1 & 1 & -1 \\
 -4 & 3 & 0 \\
 2 & -1 & 10 \\
-\end{bmatrix} ^{-1}
+\end{bmatrix} 
+\right ^{-1}
 \begin{bmatrix}
 0 \\
 0 \\
@@ -152,7 +154,9 @@ s & 0 & 0 \\
 $$
 
 $$
-= [1\ 0\ 0]
+\begin{bmatrix}
+1 & 0 & 0 \\
+\end{bmatrix}
 \begin{bmatrix}
 s-1 & -1 & 1 \\
 -4 & s-3 & 0 \\
