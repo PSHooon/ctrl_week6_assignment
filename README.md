@@ -60,9 +60,13 @@ $v_1(t) = L \frac{di_L(t)}{dt} - v_c(t) + v_2(t)$
 
 using KCL at node
 
-
+$i_L(t) = -C \frac{dV_C(t)}{dt} + i_R(t)$
 
 using KVL at right loop
+
+$i_R(t) \times R = -V_C(t) + V_2(t)$
+
+$i_R(t) = - \frac {1}{R} V_C(t) + \frac {1}{R}V_2(t)$
 
 
 
