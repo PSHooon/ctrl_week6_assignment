@@ -15,3 +15,8 @@ $x_1(t) = y(t)$ , $x_2(t) = \frac {dy(t)} {dt}$
 $\frac {dx_1(t)} {dt} = x_2(t)$
 
 $\frac {dx_2(t)} {dt} = - \frac {b} {M} x_2(t) - \frac {k} {M} x_1(t) + \frac {1} {M} F(t)$
+
+(c)
+
+$X(t) = \begin{vmatrix}x_1(t)\\x_2(t)\\ \end{vmatrix}$
+
